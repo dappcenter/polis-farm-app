@@ -1,2 +1,3 @@
-# polis-farm
-Polis farm optimizer
+# Polis Farm
+
+> Optimized farm for Polis Indexes
