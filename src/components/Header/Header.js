@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -17,7 +16,6 @@ const useStyles = makeStyles(styles);
 const Header = ({ links }) => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const classes = useStyles();
-  const { t } = useTranslation();
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);

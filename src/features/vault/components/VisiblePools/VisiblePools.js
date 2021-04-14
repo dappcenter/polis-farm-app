@@ -28,11 +28,11 @@ const VisiblePools = ({
   const classes = useStyles();
   const { t } = useTranslation();
 
-  const { filteredPools, toggleFilter, filters } = useFilteredPools(pools, tokens);
-  const { poolsByPlatform, platform, setPlatform } = usePoolsByPlatform(filteredPools);
-  const { poolsByVaultType, vaultType, setVaultType } = usePoolsByVaultType(poolsByPlatform);
-  const { poolsByAsset, asset, setAsset } = usePoolsByAsset(poolsByVaultType);
-  const { sortedPools, order, setOrder } = useSortedPools(poolsByAsset, apys);
+  const { filteredPools } = useFilteredPools(pools, tokens);
+  const { poolsByPlatform } = usePoolsByPlatform(filteredPools);
+  const { poolsByVaultType } = usePoolsByVaultType(poolsByPlatform);
+  const { poolsByAsset } = usePoolsByAsset(poolsByVaultType);
+  const { sortedPools } = useSortedPools(poolsByAsset, apys);
   const { visiblePools, fetchVisiblePools } = useVisiblePools(sortedPools, 10);
   const { pools: stake, fetchPoolData } = useFetchPoolData();
   const indexes = [];

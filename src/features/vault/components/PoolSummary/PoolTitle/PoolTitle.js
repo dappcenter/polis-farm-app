@@ -19,7 +19,6 @@ const PoolTitle = ({ name, logo, description, launchpool, buyTokenUrl, addLiquid
         alt={name}
         variant='square'
         imgProps={{ style: { objectFit: 'contain' } }}
-        src={require(`images/${logo}`)}
       />
       <div className={classes.texts}>
         <Typography className={classes.title} variant='body2' gutterBottom>
