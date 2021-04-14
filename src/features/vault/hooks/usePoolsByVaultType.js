@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { stables } from '../components/Filters/constants.js';
 import useFilterStorage from '../../home/hooks/useFiltersStorage';
 
 const DEFAULT = 'All';
@@ -20,7 +19,7 @@ const usePoolsByVaultType = pools => {
   if (vaultType === 'Singles') {
     newPools = pools.filter(pool => pool.assets.length === 1);
   } else {
-    const isStable = vaultType => stables.includes(vaultType);
+    const isStable = vaultType;
     if (vaultType === 'StableLPs') {
       newPools = pools.filter(pool => pool.assets.every(isStable)); // every
     } else if (vaultType === 'Stables') {
