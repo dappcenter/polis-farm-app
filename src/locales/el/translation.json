@@ -83,7 +83,6 @@
     "Stake-Balancer-Current-Staked": "Κατατεθειμένα",
     "Stake-Balancer-Rewards-Available": "Διαθέσιμες Ανταμοιβές",
     "Stake-Balancer-Half-Time": "Half-Time",
-    "Stake-BoostedBy": "Boosted by {{name}}",
     "Stake-Button-Back": "Πίσω",
     "Stake-Pool-Retired": "Το pool έχει τελειώσει, κάντε ανάληψη των χρημάτων σας.",
     "Stake-Total-Value-Locked": "Συνολική Κλειδωμένη Αξία",
@@ -92,6 +91,5 @@
     "Add-Liquidity": "Πρόσθεση Ρευστότητας",
     "Buy-Token": "Αγοράστε Token",
     "Wrap-BNB": "Wrap BNB",
-    "Boost": "Boost",
     "Experimental": "Πειραματικά"
   }

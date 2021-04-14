@@ -333,11 +333,6 @@ export default function StakePool(props) {
       </Grid>
 
       <Grid container className={classes.row}>
-        {pools[index].partnership ? (
-          <Box className={classes.boosted}>{t('Stake-BoostedBy', { name: pools[index].name })}</Box>
-        ) : (
-          ''
-        )}
         <Grid item xs={12} md={6} lg={3}>
           {isNeedApproval ? (
             <Button
@@ -350,7 +345,7 @@ export default function StakePool(props) {
           ) : (
             <Button
               disabled={!Boolean(pools[index].status === 'active')}
-              className={[classes.actionBtn, pools[index].partnership ? classes.btnBoost : ''].join(
+              className={[classes.actionBtn, pools[index].partnership].join(
                 ' '
               )}
               onClick={() => {
@@ -483,7 +478,7 @@ export default function StakePool(props) {
             <Button
               className={[
                 classes.actionBtn,
-                pools[index].partnership && showInput === 'stake' ? classes.btnBoost : '',
+                pools[index].partnership,
               ].join(' ')}
               disabled={!Boolean(showInput === 'stake' ? stakeAble : withdrawAble)}
               onClick={showInput === 'stake' ? onStake : onWithdraw}

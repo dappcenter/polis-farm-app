@@ -122,11 +122,6 @@ export default function StakePools(props) {
                       : '',
                   ].join(' ')}
                 >
-                  {pool.partnership ? (
-                    <Box className={classes.boosted}>{t('Stake-BoostedBy', { name: pool.name })}</Box>
-                  ) : (
-                    ''
-                  )}
                   <Typography className={classes.title} variant="body2" gutterBottom>
                     Earn {pool.earnedToken}
                   </Typography>

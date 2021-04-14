@@ -83,7 +83,6 @@
   "Stake-Balancer-Current-Staked": "Currently Staked",
   "Stake-Balancer-Rewards-Available": "Rewards Available",
   "Stake-Balancer-Half-Time": "Half-Time",
-  "Stake-BoostedBy": "Boosted by {{name}}",
   "Stake-Button-Back": "Back",
   "Stake-Pool-Retired": "The pool has finished, withdraw your funds.",
   "Stake-Total-Value-Locked": "Total Value Locked",
@@ -92,6 +91,5 @@
   "Add-Liquidity": "Add Liquidity",
   "Buy-Token": "Buy Token",
   "Wrap-BNB": "Wrap BNB",
-  "Boost": "Boost",
   "Experimental": "Experimental"
 }

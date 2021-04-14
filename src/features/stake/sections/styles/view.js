@@ -86,9 +86,7 @@ const styles = theme => ({
       textTransform: 'capitalize',
     },
   },
-  btnBoost: {
-    padding: '7px 30px',
-  },
+
   boosted: {
     position: 'absolute',
     top: 0,

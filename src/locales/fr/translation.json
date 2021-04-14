@@ -83,7 +83,6 @@
   "Stake-Balancer-Current-Staked": "Montant déposé",
   "Stake-Balancer-Rewards-Available": "Récompenses disponible",
   "Stake-Balancer-Half-Time": "Half-Time",
-  "Stake-BoostedBy": "Boosted par {{name}}",
   "Stake-Button-Back": "Retour",
   "Stake-Pool-Retired": "Staking terminé, retirez vos fonds.",
   "Stake-Total-Value-Locked": "Valeur Totale Vérrouillée",
@@ -92,6 +91,5 @@
   "Add-Liquidity": "Ajouter de la liquidité",
   "Buy-Token": "Achat de la devise",
   "Wrap-BNB": "Wrap BNB",
-  "Boost": "Boost",
   "Experimental": "Expérimental"
 } 

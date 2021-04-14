@@ -37,9 +37,6 @@ const PoolSummary = ({
         ? t('Vault-DepositsPausedTitle')
         : null;
 
-    if (launchpool) {
-      state = t('Stake-BoostedBy', { name: launchpool.name }) ;
-    }
 
     if (experimental) {
       state = t('Vault-Experimental') ;
