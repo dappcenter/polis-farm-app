@@ -4,16 +4,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Header from 'components/Header/Header';
 import HeaderLinks from 'components/HeaderLinks/HeaderLinks';
-import NetworksProvider from 'components/NetworksProvider/NetworksProvider';
-import NetworksModal from 'components/NetworksModal/NetworksModal';
 
 import { useTranslation } from 'react-i18next';
 
 import { SnackbarProvider } from 'notistack';
 import { Notifier } from 'features/common';
 
-import Footer from 'components/Footer/Footer';
-import Pastures from 'components/Pastures/Pastures';
 import appStyle from './jss/appStyle.js';
 
 import { createWeb3Modal } from '../web3';
@@ -70,8 +66,6 @@ export default function App({ children }) {
     <StylesProvider injectFirst>
       <ThemeProvider theme={theme}>
         <SnackbarProvider>
-          <NetworksProvider>
-            <NetworksModal />
             <div
               className={classes.page}
               style={{ backgroundColor: theme.palette.background.default }}
@@ -97,10 +91,7 @@ export default function App({ children }) {
                 </div>
               </div>
 
-              <Footer />
-              <Pastures />
             </div>
-          </NetworksProvider>
         </SnackbarProvider>
       </ThemeProvider>
     </StylesProvider>

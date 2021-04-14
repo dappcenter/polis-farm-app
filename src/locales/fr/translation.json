@@ -38,7 +38,6 @@
   "Vault-DepositsRetiredMsg": "Coffre désuet, retirez vos fonds dès que possible",
   "Vault-Staked": "Staked",
   "Vault-Description": "Uses: {{vault}}",
-  "Vault-Network": "Sélecteur de Réseaux",
   "Vault-Experimental": "Expérimental",												 								   
   "Hide-Zero-Balances": "Cacher les petits soldes",
   "Hide-Zero-Vault-Balances": "Coffres déposés",
@@ -94,6 +93,5 @@
   "Buy-Token": "Achat de la devise",
   "Wrap-BNB": "Wrap BNB",
   "Boost": "Boost",
-  "Experimental": "Expérimental",
-  "Select-Network": "Sélecteur de Réseaux"
+  "Experimental": "Expérimental"
 } 

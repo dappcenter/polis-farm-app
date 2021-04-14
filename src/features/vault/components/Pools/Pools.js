@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
 import TVLLoader from './TVLLoader/TVLLoader';
-import NetworksToggle from 'components/NetworksToggle/NetworksToggle';
 import { useConnectWallet } from 'features/home/redux/hooks';
 import { useFetchBalances, useFetchVaultsData, useFetchApys } from '../../redux/hooks';
 import VisiblePools from '../VisiblePools/VisiblePools';
@@ -51,8 +50,6 @@ export default function Pools() {
   return (
     <Grid container className={classes.container}>
       <Grid item xs={6}>
-        <h1 className={classes.title}>{t('Vault-Network')}</h1>
-        <NetworksToggle />
       </Grid>
       <Grid item xs={6}>
         <div className={classes.tvl}>

@@ -38,7 +38,6 @@
     "Vault-DepositsRetiredMsg": "Το χρηματοκιβώτιο έχει αποσυρθεί, κάντε ανάληψη των χρημάτων σας όσο το δυνατόν γρηγορότερα.",
     "Vault-Staked": "Κατατεθειμένα",
     "Vault-Description": "Χρησιμοποιεί: {{vault}}",
-    "Vault-Network": "Επιλέξτε δίκτυο",
     "Vault-Experimental": "Πειραματικά",
     "Hide-Zero-Balances": "Απόκρυψη μηδενικών υπολοίπων",
     "Hide-Zero-Vault-Balances": "Χρηματοκιβώτια με καταθέσεις",
@@ -94,6 +93,5 @@
     "Buy-Token": "Αγοράστε Token",
     "Wrap-BNB": "Wrap BNB",
     "Boost": "Boost",
-    "Experimental": "Πειραματικά",
-    "Select-Network": "Επιλέξτε Δίκτυο"
+    "Experimental": "Πειραματικά"
   }

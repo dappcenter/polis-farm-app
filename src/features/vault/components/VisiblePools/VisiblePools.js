@@ -13,7 +13,6 @@ import useSortedPools from '../../hooks/useSortedPools';
 import useVisiblePools from '../../hooks/useVisiblePools';
 
 import Pool from '../Pool/Pool';
-import Filters from '../Filters/Filters';
 import { useFetchPoolData } from '../../../stake/redux/fetchPoolData';
 
 const useStyles = makeStyles(styles);
@@ -61,18 +60,6 @@ const VisiblePools = ({
 
   return (
     <>
-      <Filters
-        toggleFilter={toggleFilter}
-        filters={filters}
-        platform={platform}
-        vaultType={vaultType}
-        asset={asset}
-        order={order}
-        setPlatform={setPlatform}
-        setVaultType={setVaultType}
-        setAsset={setAsset}
-        setOrder={setOrder}
-      />
       <div className={classes.scroller}>
         <InfiniteScroll dataLength={visiblePools.length} hasMore={true} next={fetchVisiblePools}>
           {visiblePools.map((pool, index) => (

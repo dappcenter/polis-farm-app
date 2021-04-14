@@ -37,7 +37,6 @@
   "Vault-DepositsRetiredMsg": "Kluis buiten gebruik, neem ZSM je fondsen op.",
   "Vault-Staked": "Staked",
   "Vault-Description": "Gebruikt: {{vault}}",
-  "Vault-Network": "Kies netwerk",
   "Hide-Zero-Balances": "Verberg nul saldo's",
   "Hide-Zero-Vault-Balances": "Gebruikt",
   "Retired-Vaults": "Buiten gebruik",

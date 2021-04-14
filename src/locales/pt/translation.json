@@ -37,7 +37,6 @@
   "Vault-DepositsRetiredMsg": "Cofre aposentado, resgate seus fundos em breve",
   "Vault-Staked": "Investido",
   "Vault-Description": "Usa: {{vault}}",
-  "Vault-Network": "Rede",
   "Hide-Zero-Balances": "Ocultar Ativos Com Saldo Zero",
   "Hide-Zero-Vault-Balances": "Cofres com Depósitos",
   "Retired-Vaults": "Cofres Aposentados",

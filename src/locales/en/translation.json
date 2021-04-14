@@ -38,7 +38,6 @@
   "Vault-DepositsRetiredMsg": "Vault retired, withdraw your funds ASAP",
   "Vault-Staked": "Staked",
   "Vault-Description": "Uses: {{vault}}",
-  "Vault-Network": "Select Network",
   "Vault-Experimental": "Experimental",
   "Hide-Zero-Balances": "Hide Zero Balances",
   "Hide-Zero-Vault-Balances": "Deposited Vaults",
@@ -94,6 +93,5 @@
   "Buy-Token": "Buy Token",
   "Wrap-BNB": "Wrap BNB",
   "Boost": "Boost",
-  "Experimental": "Experimental",
-  "Select-Network": "Select Network"
+  "Experimental": "Experimental"
 }
